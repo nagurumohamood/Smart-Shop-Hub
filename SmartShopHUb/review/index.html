@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Review - [Product Name]</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="product-info">
+            <img src="product.jpg" alt="Product Image">
+            <h2>[Product Name]</h2>
+            <p>[Product Description]</p>
+        </div>
+        <div class="review-section">
+            <div class="rating-summary">
+                <h3>Average Rating</h3>
+                <span id="average-rating">4.5</span>  <div class="stars">
+                    </div>
+            </div>
+            <div class="your-review">
+                <h3>Your Rating</h3>
+                <select name="rating" id="rating">
+                    <option value="1">1 Star</option>
+                    <option value="2">2 Stars</option>
+                    <option value="3">3 Stars</option>
+                    <option value="4">4 Stars</option>
+                    <option value="5">5 Stars</option>
+                </select>
+            </div>
+            <div class="review-form">
+                <h3>Leave a Review</h3>
+                <textarea name="review" id="review" cols="30" rows="10" placeholder="Write your review here..."></textarea>
+                <button type="button" onclick="submitReview()">Submit Review</button>
+            </div>
+            <div class="reviews">
+                <h2>Customer Reviews</h2>
+                <ul id="review-list">
+                    </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

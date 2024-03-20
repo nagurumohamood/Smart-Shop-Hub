@@ -1,0 +1,116 @@
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+   /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+     color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #1abc9c;
+    color: white;
+  }
+
+
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #B5C0D0;
+    color: #333;
+    font-size: 30px;
+  }
+
+  /* Style the header user actions section */
+.header .user-actions {
+  float: right;
+}
+
+.header .user-actions a {
+  margin-left: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+/* Style the modal windows */
+.login-modal,
+.signup-modal {
+  display: none;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  z-index: 10; /* Ensure modals are displayed above other content */
+}
+
+.login-modal h2,
+.signup-modal h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-modal form,
+.signup-modal form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login-modal label,
+.signup-modal label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.login-modal input,
+.signup-modal input {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.login-modal button,
+.signup-modal button {
+  background-color: #3B82F6;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login-modal button:hover,
+.signup-modal button:hover {
+  background-color: #2C6CBF;
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+.close-modal:hover {
+  color: #ccc;
+}

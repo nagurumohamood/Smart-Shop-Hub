@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SmartShop Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>SmartShop Hub</h1>
+        <div class="user-actions">
+            <a href="#" id="login-link">Login</a>
+            <a href="#" id="signup-link">Signup</a>
+        </div>
+    </div>
+
+    <div>
+        <div class="topnav">
+          <a class="active" href="#home">Home</a>
+          <a href="/products/index.html">Products</a>
+          <a href="#news">News</a>
+          <a href="/review/index.html">Reviews</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <p>Welcome to SmartShop Hub, your one-stop shop for all your shopping needs! Here you can find a variety of products, read news and reviews, and learn more about our company.</p>
+    </div>
+
+    <div class="login-modal" id="login-modal">
+        <h2>Login</h2>
+        <form id="login-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Login</button>
+        </form>
+        <a href="#" class="close-modal">&#x2716;</a>
+    </div>
+
+    <div class="signup-modal" id="signup-modal">
+        <h2>Signup</h2>
+        <form id="signup-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="signup-password">Password:</label>
+            <input type="password" id="signup-password" name="password" required>
+            <button type="submit">Signup</button>
+        </form>
+        <a href="#" class="close-modal">&#x2716;</a>
+    </div>
+
+    <div class="footer">
+        <p>&copy; SmartShop Hub 2024</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
